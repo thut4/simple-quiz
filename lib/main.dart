@@ -15,7 +15,8 @@ class ProApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      // home: SplashPage(),
+      home: HomePage(),
     );
   }
 }
